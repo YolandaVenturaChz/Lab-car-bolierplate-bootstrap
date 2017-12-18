@@ -55,8 +55,8 @@
     line-height: 3rem;
    }
    /*tercera seccion desktop*/
-   .option-job{  /*sección segunda imagen del conductor*/
-    height: 455px;
+   .taxi-desktop{  /*sección segunda imagen del conductor*/
+     height: 455px;
     background-image: url(../assets/images/conduce-desktop.jpg);
      background-size: cover;
   }
