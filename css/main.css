@@ -1,0 +1,68 @@
+.container {
+    outline: 1px solid red;
+
+}
+ .row{
+    outline: 1px solid blue;
+    
+}
+:root {
+  --yellow: #f7b617;
+  --white: #ffffff;
+  --turqueza:#12b7a7;
+  --gray:#d8d4d4;
+}
+
+.col-sm {
+    border: 5px solid green;
+}
+/*mobiles*/
+/*primer seccion mobile-*/
+.mobil {
+    background-image: url(../assets/images/taxi-mobile.jpg);
+    background-size: cover;
+    height: 344px;
+}
+
+/*segunda seccion mobile-*/
+.image-iphone6 {
+    background-color: var(--yellow);
+}
+
+/*tercera seccion mobile-*/
+.option-job{
+    height: 397px;
+    background-image: url(../assets/images/conduce-mobile.jpg);
+     background-size: cover;
+    
+  }
+/*desktop*/
+
+@media (min-width: 1280px){
+    /*primera seccion desktop*/
+    .desktop{
+    background-image: url(../assets/images/taxi-desktop.jpg);
+    height: 650px;
+ }
+  /*segunda seccion desktop*/
+ .iphone picture img{
+     padding: 3rem 0rem;
+     width: 50%;
+   } 
+ .row .iphone-text {
+     margin-top: 3rem;
+    padding: 1rem;
+    line-height: 3rem;
+   }
+   /*tercera seccion desktop*/
+   .option-job{  /*sección segunda imagen del conductor*/
+    height: 455px;
+    background-image: url(../assets/images/conduce-desktop.jpg);
+     background-size: cover;
+  }
+  .option-job .option-conductor{
+    padding: 9.5rem 5rem;
+    color: var(--white);
+    background-color: rgba(0 0 0 1 0); 
+  }
+}
