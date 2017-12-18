@@ -11,8 +11,11 @@
   --white: #ffffff;
   --turqueza:#12b7a7;
   --gray:#d8d4d4;
+  --gray1:#2c2a2a;
 }
-
+header #header-menu .icon-bar{
+    color: var(--gray1);
+}
 .col-sm {
     border: 5px solid green;
 }
@@ -41,7 +44,8 @@
 @media (min-width: 1280px){
     /*primera seccion desktop*/
     .desktop{
-    background-image: url(../assets/images/taxi-desktop.jpg);
+   /* background-image: url(/../assets/images/taxi-desktop.jpg);*/
+   background-color: green;
     height: 650px;
  }
   /*segunda seccion desktop*/
@@ -66,3 +70,13 @@
     background-color: rgba(0 0 0 1 0); 
   }
 }
+
+/*-----------------footer------------------------*/
+.page-footer {
+    background-color: var(--gray1);
+}
+.page-footer #iconox, .page-footer .footer-copyright {
+    color: var(--white);
+}
+ 
+
