@@ -1,11 +1,11 @@
-.container {
+/*.container {
     outline: 1px solid red;
 
 }
  .row{
     outline: 1px solid blue;
     
-}
+}*/
 :root {
   --yellow: #f7b617;
   --white: #ffffff;
@@ -16,9 +16,9 @@
 header #header-menu .icon-bar{
     color: var(--gray1);
 }
-.col-sm {
+/*.col-sm {
     border: 5px solid green;
-}
+}*/
 /*mobiles*/
 /*primer seccion mobile-*/
 .mobil {
@@ -44,8 +44,8 @@ header #header-menu .icon-bar{
 @media (min-width: 1280px){
     /*primera seccion desktop*/
     .desktop{
-   /* background-image: url(/../assets/images/taxi-desktop.jpg);*/
-   background-color: green;
+    background-image: url(../assets/images/taxi-desktop.jpg);
+   /*background-color: green;*/
     height: 650px;
  }
   /*segunda seccion desktop*/
