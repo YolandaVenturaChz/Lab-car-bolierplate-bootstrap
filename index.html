@@ -31,16 +31,42 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="sass.html">Sass</a>
+                            <a href="">Menu</a>
                         </li>
                         <li>
-                            <a href="badges.html">Components</a>
+                            <a href="">Viaja</a>
                         </li>
                         <li>
-                            <a href="collapsible.html">Javascript</a>
+                            <a href="">Conduce</a>
                         </li>
                         <li>
-                            <a href="mobile.html">Mobile</a>
+                            <!------------ Modal Trigger------------- -->
+                            <a href="" data-toggle="modal" data-target="#myModal">Inicia Sesión</a>
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <picture class="col-xs6 col-xs-offset-4">
+                                                <img class="col-xs12" src="assets/images/capture-modal.png" alt="">
+                                            </picture>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!------------ Modal ubicate  Trigger------------- -->
                         </li>
                     </ul>
                 </div>
@@ -49,53 +75,53 @@
 
     </header>
 
-    <!-- seccion formulario primer formulario para desktop -->
+    <!-- seccion formulario para desktop -->
     <section class="hidden-xs desktop">
         <div class="container-fluid">
             <div class="row">
                 <!--------------------------desktop------------------------------ -->
-                <div class=" col-md-6 col-md-offset-6 colgar ">
-                    <h4 class="col-md-12 ">Disfruta del viaje</h4>
-                    <h4 class="col-md-12 ">Eres dueño de tu tiempo</h4>
+                <div class=" col-md-5 pull-right card-first ">
+                    <h3 class="col-md-12 ">Disfruta del viaje</h3>
+                    <h3 class="col-md-12 ">Eres dueño de tu tiempo</h3>
 
                     <span class="col-md-12  ">
-                        <p class="col-md-3">Viaja con</p>
-                        <img class="col-md-3  " src="assets/images/logoBlanco.png" alt="">
+                        <h4 class="col-md-3">Viaja con</h4>
+                        <img class="col-md-4 logoblanco " src="assets/images/logoBlanco.png" alt="">
                     </span>
-                    <!------------ Modal Trigger------------- -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">regístrate</button>
 
-                    <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog">
+                    <button type="button" class=" col-lg-5 btn btn-default btn-lg">
+                        <b>REGISTRATE</b>
+                    </button>
 
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <picture class="col-xs6 col-xs-offset-4">
-                                        <img class="col-xs12" src="assets/images/capture-modal.png" alt="">
-                                    </picture>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Modal Header</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Some text in the modal.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
+                    <!------------ form  ubicate  ------------- -->
+
+                    <form>
+                        <div class="col-md-12 col-lg-12">
+
+                            <div class=" col-md-5 field1">
+                                <span class=" icon-mail"></span>
+                                <input type="  text" class="form-control" placeholder="Username">
                             </div>
 
+                            <p class="col-md-2">O bien</p>
+
+                            <div class="col-md-5 field ">
+                                <span class="icon-mobile-1"></span>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
                         </div>
-                    </div>
-                    <!------------ Modal ubicate  Trigger------------- -->
+
+                    </form>
+
                     <!------------ Modal Trigger------------- -->
-                    <button type="button" class="btn btn-info btn-lg " data-toggle="modal" data-target="#myModal1">regístrate</button>
-                    
+                    <button type="button" class="  col-lg-7 btn1 btn-default btn-lg " data-toggle="modal" data-target="#myModal1">
+                        <b>Conviértete en conductor</b>
+                    </button>
+
                     <!-- Modal -->
                     <div id="myModal1" class="modal fade" role="dialog">
                         <div class="modal-dialog">
-                    
+
                             <!-- Modal content-->
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -112,7 +138,7 @@
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                    
+
                         </div>
                     </div>
                     <!------------ Modal ubicate  Trigger------------- -->
@@ -125,11 +151,13 @@
     <section class="hidden-sm hidden-md hidden-lg mobil">
         <div class="container-fluid ">
             <div class="row ">
-                <div class="col-xs-7 col-xs-offset-5 colgar1">
-                    <h3 class="col-xs-12 ">Collapsible Navbar</h3>
-                    <p class="col-xs-12 ">In this example, the navigation bar is hidden on small screens and replaced by a button in the top right
-                        corner (try to re-size this window).</p>
-                    <p class="col-xs-12 ">Only when the button is clicked, the navigation bar will be displayed.</p>
+                <div class="col-xs-9 pull-right card-first">
+                    <h4 class="col-xs-12 ">Comienza a viajar</h4>
+                    <span class="col-xs-12  ">
+                        <p class="col-xs-6">Viaja con</p>
+                        <img class="col-xs-6 logoblanco " src="assets/images/logoBlanco.png" alt="">
+                    </span>
+                    <button type="button" class="col-xs-7 btn btn-primary">Descarga el app</button>
                 </div>
 
             </div>
@@ -139,20 +167,22 @@
     <section class="image-iphone6">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-6 iphone">
-                    <picture>
-                        <h4 class="hidden-sm hidden-md hidden-lg">La nueva app</h4>
-                        <img class="col-xs-12" src="assets/images/iPhone6Plus.png" alt="">
-                    </picture>
-                    <h5 class="hidden-sm hidden-md hidden-lg">Llega a tu destino aún más rápido</h5>
-                </div>
-                <div class="hidden-xs col-md-6 iphone-text">
-                    <h5>Descarga la nueva app</h5>
-                    <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil
-                        y rápido</p>
-                    <p>Con solo tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe
-                        exactamente a dónde ir.
-                    </p>
+                <div class="bord col-md-9">
+                    <div class="col-xs-12 col-md-5  iphone">
+                        <picture class="col-xs-12">
+                            <h4 class="hidden-sm hidden-md hidden-lg">La nueva app</h4>
+                            <img class="col-xs-12 " src="assets/images/iPhone6Plus.png" alt="">
+                        </picture>
+                        <h5 class="hidden-sm hidden-md hidden-lg">Llega a tu destino aún más rápido</h5>
+                    </div>
+                    <div class="hidden-xs col-md-4 iphone-text">
+                        <h5>Descarga la nueva app</h5>
+                        <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más
+                            fácil y rápido</p>
+                        <p>Con solo tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor
+                            sabe exactamente a dónde ir.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,15 +199,15 @@
                     <p class="col-md-4 ">Only when the button is clicked, the navigation bar will be displayed.</p>
                     <!------------ Modal Trigger------------- -->
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">regístrate</button>
-                    
+
                     <!-- Modal -->
                     <div id="myModal2" class="modal fade" role="dialog">
                         <div class="modal-dialog">
-                    
+
                             <!-- Modal content-->
                             <div class="modal-content">
                                 <div class="modal-header">
-                                   
+
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <h4 class="modal-title">Modal Header</h4>
                                 </div>
@@ -188,7 +218,7 @@
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                    
+
                         </div>
                     </div>
                     <!------------ Modal ubicate  Trigger------------- -->

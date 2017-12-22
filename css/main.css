@@ -1,11 +1,11 @@
-/*.container {
+.container {
     outline: 1px solid red;
 
 }
- .row{
+ .row {
     outline: 1px solid blue;
     
-}*/
+}
 :root {
   --yellow: #f7b617;
   --white: #ffffff;
@@ -16,6 +16,43 @@
 header #header-menu .icon-bar{
     color: var(--gray1);
 }
+
+/* card first view desktop*/
+.card-first {
+background: var(--yellow);
+height: 120px;
+top: 12rem;
+}
+
+.mobil .row {
+          height: 240px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.col-sm {
     border: 5px solid green;
 }*/
@@ -29,9 +66,14 @@ header #header-menu .icon-bar{
 
 /*segunda seccion mobile-*/
 .image-iphone6 {
-    background-color: var(--yellow);
-}
+   background-color: var(--yellow);
+    height: 315px;
+    padding-top: 2.3rem;
 
+}
+.image-iphone6 picture {
+    border: 2px solid white;
+}
 /*tercera seccion mobile-*/
 .option-job{
     height: 397px;
@@ -43,20 +85,73 @@ header #header-menu .icon-bar{
 
 @media (min-width: 1280px){
     /*primera seccion desktop*/
-    .desktop{
+    .logoblanco {
+    width: 23%;
+    right: 3rem;
+    top: 0.8rem;
+    }
+.card-first {
+background: var(--yellow);
+height: 350px;
+top: 9rem;
+}
+  .desktop .row {
+          height: 441px;
+  }
+  
+  .form-control {
+   border: none;
+   background: transparent;
+   outline: none;
+   border-bottom: 1px solid black;  
+   
+  }
+
+  .image-iphone6 picture {
+    border: none;
+}
+
+
+  .btn1 {
+      margin-top: 2rem;
+  }
+
+ .field1 {
+     bottom: -1rem;
+ }
+  .desktop p {
+     top: 3rem;    
+  }
+ .desktop{
     background-image: url(../assets/images/taxi-desktop.jpg);
    /*background-color: green;*/
     height: 650px;
  }
   /*segunda seccion desktop*/
+
+.image-iphone6 {
+    background-color: var(--yellow);
+    height: 455px;
+
+}
+
  .iphone picture img{
-     padding: 3rem 0rem;
-     width: 50%;
+    padding: 3rem 0rem;
+    width: 82%;
+    left: 4rem;
    } 
+   
+    .image-iphone6 .row .bord{
+    border: 2px solid white;
+    margin-top: 20px;
+    height: 376px;
+    }
+
  .row .iphone-text {
-     margin-top: 3rem;
+    margin-top: 3rem;
     padding: 1rem;
-    line-height: 3rem;
+    line-height: 4rem;
+    left: 7rem;
    }
    /*tercera seccion desktop*/
    .taxi-desktop{  /*sección segunda imagen del conductor*/
