@@ -1,11 +1,8 @@
-.container {
-    outline: 1px solid red;
+*{
+    list-style: none;
+}
 
-}
- .row {
-    outline: 1px solid blue;
-    
-}
+/*variables*/
 :root {
   --yellow: #f7b617;
   --white: #ffffff;
@@ -13,11 +10,25 @@
   --gray:#d8d4d4;
   --gray1:#2c2a2a;
 }
+header {
+    background: var(--white);
+}
+
 header #header-menu .icon-bar{
     color: var(--gray1);
 }
 
-/* card first view desktop*/
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+color: var(--white);
+background: var(--gray1);
+}
+/*pimera sección*/
+
+/* card first */
+
 .card-first {
 background: var(--yellow);
 height: 120px;
@@ -25,153 +36,202 @@ top: 12rem;
 }
 
 .mobil .row {
-          height: 240px;
-  }
+height: 240px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.col-sm {
-    border: 5px solid green;
-}*/
-/*mobiles*/
 /*primer seccion mobile-*/
 .mobil {
-    background-image: url(../assets/images/taxi-mobile.jpg);
-    background-size: cover;
-    height: 344px;
+background-image: url(../assets/images/taxi-mobile.jpg);
+background-size: cover;
+height: 344px;
 }
 
 /*segunda seccion mobile-*/
 .image-iphone6 {
-   background-color: var(--yellow);
-    height: 315px;
-    padding-top: 2.3rem;
+background-color: var(--yellow);
+height: 315px;
+padding-top: 2.3rem;
+}
 
-}
 .image-iphone6 picture {
-    border: 2px solid white;
+border: 2px solid white;
 }
+
 /*tercera seccion mobile-*/
+.option-job .option-conductor {
+height: 397px;
+padding: 5rem;
+background: rgba(0, 0, 0, 0.4);
+}
+
 .option-job{
-    height: 397px;
-    background-image: url(../assets/images/conduce-mobile.jpg);
-     background-size: cover;
-    
-  }
+height: 397px;
+background-image: url(../assets/images/conduce-mobile.jpg);
+background-size: cover;
+}
+
+.btn-info1 {
+color: #131212;
+background-color: var(--yellow);
+border-color: var(--yellow);
+}
+
+/*cuarta seccion mobile-*/
+.mapha-ubicacion {
+background: var(--yellow);
+height: 685px;
+padding-top: 2rem;
+}
+
+.mapha-ubicacion .mobile .maps, .mapha-ubicacion .deskt .maps {
+border: 1px solid white;
+padding: 1rem;
+top: 2rem;
+}
+
+#validate{
+display: block;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+#validate input {
+border-radius: 0.5rem;
+background: transparent;
+border: 1px solid white;
+line-height: 3rem;
+}
+
+input::placeholder { 
+color: var(--white) ;    
+}
+
+/*-----------------fotter------------------------*/
+.page-footer {
+background-color: var(--gray1);
+height: 360px;
+padding-top: 3rem;
+}
+
+.page-footer .row .text {
+line-height: 5rem;
+}
+ 
 /*desktop*/
 
 @media (min-width: 1280px){
     /*primera seccion desktop*/
-    .logoblanco {
-    width: 23%;
-    right: 3rem;
-    top: 0.8rem;
-    }
-.card-first {
-background: var(--yellow);
-height: 350px;
-top: 9rem;
-}
+  .logoblanco {
+   width: 23%;
+   right: 3rem;
+   top: 0.8rem;
+  }
+
+  .card-first {
+  background: var(--yellow);
+  height: 350px;
+  top: 9rem;
+  }
+
   .desktop .row {
-          height: 441px;
+   height: 441px;
   }
   
   .form-control {
-   border: none;
-   background: transparent;
-   outline: none;
-   border-bottom: 1px solid black;  
-   
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid black;  
   }
 
   .image-iphone6 picture {
-    border: none;
-}
-
+  border: none;
+  }
 
   .btn1 {
-      margin-top: 2rem;
+  margin-top: 2rem;
   }
 
- .field1 {
-     bottom: -1rem;
- }
+  .field1 {
+  bottom: -1rem;
+  }
+
   .desktop p {
-     top: 3rem;    
+  top: 3rem;    
   }
- .desktop{
-    background-image: url(../assets/images/taxi-desktop.jpg);
-   /*background-color: green;*/
-    height: 650px;
- }
+
+  .desktop{
+  background-image: url(../assets/images/taxi-desktop.jpg);
+  height: 650px;
+  }
+
   /*segunda seccion desktop*/
+  .image-iphone6 {
+  background-color: var(--yellow);
+  height: 455px;
+  }
 
-.image-iphone6 {
-    background-color: var(--yellow);
-    height: 455px;
-
-}
-
- .iphone picture img{
-    padding: 3rem 0rem;
-    width: 82%;
-    left: 4rem;
-   } 
+  .iphone picture img{
+  padding: 3rem 0rem;
+  width: 82%;
+  left: 4rem;
+  } 
    
-    .image-iphone6 .row .bord{
-    border: 2px solid white;
-    margin-top: 20px;
-    height: 376px;
-    }
+  .image-iphone6 .row .bord{
+  border: 2px solid white;
+  margin-top: 20px;
+  height: 376px;
+  }
 
- .row .iphone-text {
-    margin-top: 3rem;
-    padding: 1rem;
-    line-height: 4rem;
-    left: 7rem;
-   }
+  .row .iphone-text {
+  margin-top: 3rem;
+  padding: 1rem;
+  line-height: 4rem;
+  left: 7rem;
+  }
+
    /*tercera seccion desktop*/
-   .taxi-desktop{  /*sección segunda imagen del conductor*/
-     height: 455px;
-    background-image: url(../assets/images/conduce-desktop.jpg);
-     background-size: cover;
+  .taxi-desktop{  /*sección segunda imagen del conductor*/
+  height: 455px;
+  background-image: url(../assets/images/conduce-desktop.jpg);
+  background-size: cover;
   }
-  .option-job .option-conductor{
-    padding: 9.5rem 5rem;
-    color: var(--white);
-    background-color: rgba(0 0 0 1 0); 
+
+  .row .text-desktop {
+  height: 455px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 7rem;
+  line-height: 3em;
+  }
+
+  
+
+  .mapha-ubicacion {
+  background: var(--yellow);
+  height: 475px;
+  padding-top: 5rem;
+  font-size: 18px;
+ }
+
+ /*-----------------footer----------*/
+  .page-footer .row .text {
+  line-height: 5rem;
+  }
+
+  .page-footer .row .icons {
+  position: relative;
+  top: 38rem;
+  }
+
+  .page-footer .row .icons1 {
+  position: relative;
+  top: 24rem;
+  }
+
+  .page-footer img {
+  margin-bottom: 2rem;
   }
 }
 
-/*-----------------footer------------------------*/
-.page-footer {
-    background-color: var(--gray1);
-}
-.page-footer #iconox, .page-footer .footer-copyright {
-    color: var(--white);
-}
- 
+
 
