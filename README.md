@@ -1,4 +1,4 @@
-# LAB-<AR 
+# LAB-CAR 
 
 Lab card es una página web responsive que te permite trazar rutas con la funcionalidad de guiar su camino trazado.
 
