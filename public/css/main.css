@@ -117,6 +117,17 @@ padding-top: 3rem;
 line-height: 5rem;
 }
  
+.map {
+    width: 100%;
+  }
+  
+  .box-map {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 1em .3em;
+    height: 50vh;
+  }
+  
 /*desktop*/
 
 @media (min-width: 1280px){
