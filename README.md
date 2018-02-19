@@ -1,13 +1,15 @@
-# LAB-<AR -- BOOTSTRAP
-Recrea una página web. con modales y funcionalidad del mapa que te indique el camino a seguir.
+# LAB-CAR 
 
-<img src="public/assets/images/readme-1.PNG" alt="">
+Lab -Car es una página web responsive que te permite trazar rutas con la ayuda de la api google-map.
 
-### create: Yolanda Ventura
-# VERSION Mobil
-<img src="public/assets/images/readme-3.PNG" alt="">
-## avances
-<img src="public/assets/images/readme-2.PNG" alt="">
+![readme-1](https://user-images.githubusercontent.com/32283689/36367508-f850969c-1520-11e8-84aa-6dda63d74f7a.PNG)
 
-# tambien agregando modales
-<img src="public/assets/images/readme-4.PNG" alt="">
+
+### Desarrollado para [Laboratoria](http://laboratoria.la) 
+
+### Autora
++ Yolanda Ventura
+
+
+
+
